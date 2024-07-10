@@ -51,6 +51,12 @@ To get started with the Acme Dashboard, follow these steps:
 
 6. Open your browser and go to `http://localhost:3000` to see the application.
 
+7. 5. Credentials to Log-in:
+   ```bash
+   Email: user@nextmail.com
+   Password: 123456
+   ```
+
 ## Usage
 
 To use the Acme Dashboard, follow these steps:
