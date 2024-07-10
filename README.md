@@ -18,8 +18,6 @@ Welcome to the Acme Dashboard, a practice project built with Next.js. This proje
 - Dynamic and responsive UI
 - Interactive charts and data visualization
 - Real-time data updates
-- Customizable widgets and components
-- Dark mode support
 
 ## Installation
 
@@ -27,12 +25,12 @@ To get started with the Acme Dashboard, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/acme-dashboard.git
+   git clone https://github.com/Tegarsetyo6/NextJSDemo.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd acme-dashboard
+   cd NextJSDemo
    ```
 
 3. Install the dependencies:
@@ -42,8 +40,8 @@ To get started with the Acme Dashboard, follow these steps:
 
 4. Create a `.env.local` file in the root directory and add the necessary environment variables:
    ```env
-   NEXT_PUBLIC_API_URL=your_api_url
-   NEXT_PUBLIC_API_KEY=your_api_key
+   AUTH_SECRET=kd7KSymC94WmG+udXnAfLo7V6CaNoqC39oiZIUBQJVc
+   AUTH_URL=http://localhost:3000/api/auth
    ```
 
 5. Run the development server:
@@ -68,12 +66,9 @@ To use the Acme Dashboard, follow these steps:
 The project structure is organized as follows:
 
 ```
-acme-dashboard/
-├── components/        # Reusable UI components
-├── pages/             # Next.js pages and routes
+NextJSDemo/
+├── app/               # Next.js pages and UI Component
 ├── public/            # Static assets and images
-├── styles/            # Global and component-specific styles
-├── utils/             # Utility functions and helpers
 ├── .env.local         # Environment variables
 ├── next.config.js     # Next.js configuration
 ├── package.json       # Project dependencies and scripts
@@ -87,8 +82,6 @@ The Acme Dashboard is built using the following technologies:
 - [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for styling
-- [Chart.js](https://www.chartjs.org/) - JavaScript library for data visualization
-- [Firebase](https://firebase.google.com/) - Backend-as-a-Service for authentication and real-time data updates
 
 ## Contributing
 
