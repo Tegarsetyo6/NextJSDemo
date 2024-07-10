@@ -40,7 +40,7 @@ To get started with the Acme Dashboard, follow these steps:
 
 4. Create a `.env.local` file in the root directory and add the necessary environment variables:
    ```env
-   AUTH_SECRET=kd7KSymC94WmG+udXnAfLo7V6CaNoqC39oiZIUBQJVc
+   AUTH_SECRET=yourauth_secret
    AUTH_URL=http://localhost:3000/api/auth
    ```
 
